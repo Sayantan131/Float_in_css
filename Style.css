@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+     width: 900px;
+     border:2px solid purple;
+     margin: 33px auto;
+}
+body{
+    font-family: 'Aoboshi One', serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.item{
+    border: 3px solid yellow;
+    margin: 13px 3px;
+    padding: 13px 3px;
+    background-color: rgb(241, 228, 228);
+
+}
+p,h3{
+    text-align: right;
+    text-align: left;
+    text-align: center;
+    text-align: justify;
+}
+
+h1{
+    margin: 23px auto;
+    width: 455px;
+}
+
+#fruits{
+    float: left;
+    width: 48%;
+}
+
+#computer{
+    float: right;
+    width: 48%;
+}
+#stationary{
+    /* float: left; */
+    clear: both;
+    width: 100%;
+}
+
